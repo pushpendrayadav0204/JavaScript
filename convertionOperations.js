@@ -33,7 +33,7 @@ console.log(score) // output will be true
 let valueInNumber = Number(score)
 console.log(valueInNumber) // output will be 1*/
 
-let score = "PUSHP"
+/*let score = "PUSHP"
 console.log(score) // output will be PUSHP
 let valueInNumber = Number(score)
 console.log(valueInNumber) // output will be NaN*/
@@ -42,7 +42,7 @@ console.log(valueInNumber) // output will be NaN*/
 //"33abc => NaN"
 // true => 1 & false =>0
 
-let isloggedIn =1
+/*let isloggedIn =1
 let booleanIsloggedIn = Boolean(isloggedIn)
 console.log(booleanIsloggedIn) // output will be true 
 
@@ -54,5 +54,34 @@ let someNumber = 33
 let someString = String(someNumber)
 console.log(someString) // output will be 33
 console.log(typeof(someString)) // output will be string 
+
+//*************************OPERATIONS****************************** */
+let value = 3
+let nevalue = -value
+//console.log(nevalue)
+
+/*console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)
+console.log(2/2)
+console.log(2%2)*/
+
+let str1 = "PUSHP"
+let str2 = "YADAV"
+str3 = str1 + str2
+//console.log(str3)
+
+//console.log("1" + 2)
+//console.log(1 + "2")
+
+//console.log((3 + 4) * 5 % 3)
+
+let gamecounter = 100
+//gamecounter++;
+//console.log(gamecounter)
+++gamecounter;
+console.log(gamecounter)
+
 
 
