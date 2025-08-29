@@ -4,7 +4,7 @@
 // there are 7 types of Primitive Data type:
 // String, Number, Boolean, null, undefined, Symbol,BigInt.
 
-const score = 100;
+/*const score = 100;
 const scoreValue = 100.3
 
 const isloggedIn = false
@@ -32,4 +32,32 @@ let myObj = {
 
 const myFunction = function(){
     console.log("Hello word");
+}*/
+
+
+
+//---------------------------------------------------------------------------------------------------------------
+// ***************************Memory***********************************************
+// stack (Primitive), Heap (Non-Primitive)
+
+let myName = "PUSHPENDRA"
+
+let my_name = myName;
+
+my_name="PUSHP YADAV";
+
+console.log(myName);
+console.log(my_name);
+
+
+let userOne = {
+    email : "Pushp@gmail.com",
+    UPI : "UserOne@ybl"
 }
+
+let userTwo = userOne
+
+userTwo.email = "pushpendra@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
