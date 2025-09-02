@@ -1,4 +1,4 @@
- tinderUser = new  Object() // Singleton object 
+ /*tinderUser = new  Object() // Singleton object 
 console.log(tinderUser); // Output => {}
 
 tinderUser.id = "123abc";
@@ -53,3 +53,18 @@ console.log(Object.entries(tinderUser)) // Output => [ [ 'id', '123abc' ], [ 'na
 
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn")) // Output => True
+*/
+
+
+const course = {
+    coursename: "JavaScript in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor} = course; // It is also way to access the Information of objects.
+console.log(courseInstructor); // Output => Hitesh
+
+const {courseInstructor: Instuructor} = course; // Object destructure.
+console.log(Instuructor); // Output => Hitesh
+
